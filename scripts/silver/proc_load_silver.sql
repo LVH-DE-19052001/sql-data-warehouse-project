@@ -244,8 +244,5 @@ print 'error message' + cast (error_state() as nvarchar);
 print '=========================================='
 end catch
 end;
-go
-exec bronze.load_bronze;
-go
-exec silver.load_silver;
-go
+
+
